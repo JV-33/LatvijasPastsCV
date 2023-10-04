@@ -1,0 +1,128 @@
+﻿@model LatvijasPastsCV.Models.CV
+
+<h2>Rediģēt CV</h2>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        Lūdzu, labojiet sekojošās kļūdas:
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<form asp-action="CVEdit" method="post">
+    <input type="hidden" asp-for="ID" />
+
+    <!-- Pamatdati section -->
+    <div class="form-group">
+        <label for="Vards">Vārds:</label>
+        <input asp-for="Pamatdati.Vards" class="form-control" id="Vards" required placeholder="Ievadiet vārdu" />
+    </div>
+    <div class="form-group">
+        <label for="Uzvards">Uzvārds:</label>
+        <input asp-for="Pamatdati.Uzvards" class="form-control" id="Uzvards" required placeholder="Ievadiet uzvārdu" />
+    </div>
+    <div class="form-group">
+        <label for="Talrunis">Tālrunis:</label>
+        <input asp-for="Pamatdati.Talrunis" class="form-control" id="Talrunis" required placeholder="Ievadiet tālruņa numuru" />
+    </div>
+    <div class="form-group">
+        <label for="EPasts">E-pasts:</label>
+        <input asp-for="Pamatdati.EPasts" class="form-control" id="EPasts" required type="email" placeholder="Ievadiet e-pastu" />
+    </div>
+
+    <!-- Izglītība section -->
+    <h3>Izglītība</h3>
+
+    @for (var i = 0; i < Model.Izglitiba.Count; i++)
+    {
+        <div class="form-group">
+            <label asp-for="Izglitiba[i].Iestade">Izglītības iestāde:</label>
+            <input asp-for="Izglitiba[i].Iestade" class="form-control" required placeholder="Ievadiet izglītības iestādes nosaukumu" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Izglitiba[i].Fakultate">Fakultāte:</label>
+            <input asp-for="Izglitiba[i].Fakultate" class="form-control" required placeholder="Ievadiet fakultātes nosaukumu" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Izglitiba[i].IzglitibasLimenis">Izglītības līmenis:</label>
+            <input asp-for="Izglitiba[i].IzglitibasLimenis" class="form-control" required placeholder="Ievadiet izglītības līmeni" />
+        </div>
+
+        <div class="form-group">
+            <label for="Izglitiba.Statuss">Statuss:</label>
+            <select asp-for="Izglitiba[i].Statuss" class="form-control" id="Izglitiba.Statuss" required>
+                <option value="macibas pabeigtas">Mācības pabeigtas</option>
+                <option value="macibas partrauktas">Mācības pārtrauktas</option>
+                <option value="macas">Mācās</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="Izglitiba.MacibasLaiks">Mācību laiks:</label>
+            <input type="date" asp-for="Izglitiba[i].MacibasLaiks" class="form-control" id="Izglitiba.MacibasLaiks" required placeholder="Izvēlieties datumu" />
+        </div>
+    }
+
+    <!-- Darba pieredze section -->
+    <h3>Darba pieredze</h3>
+    @for (var i = 0; i < Model.DarbaPieredzes.Count; i++)
+    {
+        <div class="form-group">
+            <label for="DarbaPieredze.Vieta">Darba vieta:</label>
+            <input asp-for="DarbaPieredzes[i].Vieta" class="form-control" required placeholder="Ievadiet darba vietu" />
+        </div>
+        <div class="form-group">
+            <label for="DarbaPieredze.Nosaukums">Uzņēmuma nosaukums:</label>
+            <input asp-for="DarbaPieredzes[i].Nosaukums" class="form-control" required placeholder="Ievadiet uzņēmuma nosaukumu" />
+        </div>
+        <div class="form-group">
+            <label for="DarbaPieredze.Amats">Ienemamais amats:</label>
+            <input asp-for="DarbaPieredzes[i].Amats" class="form-control" required placeholder="Ievadiet amatu" />
+        </div>
+        <div class="form-group">
+            <label for="DarbaPieredze.Slodze">Slodzes apmērs:</label>
+            <input asp-for="DarbaPieredzes[i].SlodzesApmers" class="form-control" required placeholder="Ievadiet slodzes apmēru" />
+        </div>
+        <div class="form-group">
+            <label for="DarbaPieredze.Stazs">Darba stāžs:</label>
+            <input type="date" asp-for="DarbaPieredzes[i].Stazs" class="form-control" required placeholder="Izvēlieties datumu" />
+        </div>
+    }
+
+    <!-- Prasmes section -->
+    <h3>Pielietotās prasmes vai sasniegumi</h3>
+    @for (var i = 0; i < Model.Prasmes.Count; i++)
+    {
+        <div class="form-group">
+            <label asp-for="Prasmes[i].Apraksts">Apraksts:</label>
+            <textarea asp-for="Prasmes[i].Apraksts" class="form-control" required placeholder="Ievadiet aprakstu"></textarea>
+        </div>
+    }
+
+    <!-- Adrese section -->
+    <h3>Adrese</h3>
+    <div class="form-group">
+        <label for="Adrese.Valsts">Valsts:</label>
+        <input asp-for="Adrese.Valsts" class="form-control" id="Adrese.Valsts" required placeholder="Ievadiet valsti" />
+    </div>
+    <div class="form-group">
+        <label for="Adrese.Indekss">Indekss:</label>
+        <input asp-for="Adrese.Indekss" class="form-control" id="Adrese.Indekss" required placeholder="Ievadiet indeksu" />
+    </div>
+    <div class="form-group">
+        <label for="Adrese.Pilseta">Pilsēta:</label>
+        <input asp-for="Adrese.Pilseta" class="form-control" required placeholder="Ievadiet pilsētu" />
+    </div>
+    <div class="form-group">
+        <label for="Adrese.Iela">Iela:</label>
+        <input asp-for="Adrese.Iela" class="form-control" required placeholder="Ievadiet ielu" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Saglabāt izmaiņas</button>
+</form>

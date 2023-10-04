@@ -1,0 +1,66 @@
+﻿<Properties StartupConfiguration="{DD8AE8B8-884A-421C-842D-36373212D027}|https">
+  <MonoDevelop.Ide.ItemProperties.LatvijasPastsCVTests FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.LatvijasPastsCV PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../LatvijasPastsCVTests/UnitTest1.cs">
+    <Files>
+      <File FileName="Controllers/CVController.cs" Line="3" Column="1" />
+      <File FileName="Controllers/HomeController.cs" Line="19" Column="6" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="32" Column="124" />
+      <File FileName="Views/CV/CVSaraksts.cshtml" Line="1" Column="28" />
+      <File FileName="Views/CV/CVEdit.cshtml" Line="8" Column="1" />
+      <File FileName="Controllers/AdresesController.cs" Line="4" Column="22" />
+      <File FileName="Controllers/DarbaPieredzeController.cs" Line="3" Column="22" />
+      <File FileName="Controllers/IzglitibaController.cs" Line="4" Column="1" />
+      <File FileName="Controllers/PamatdatiController.cs" Line="4" Column="32" />
+      <File FileName="Controllers/PrasmesController.cs" Line="13" Column="15" />
+      <File FileName="Program.cs" Line="6" Column="1" />
+      <File FileName="Views/CV/CVCreate.cshtml" Line="102" Column="43" />
+      <File FileName="Models/Adrese.cs" Line="4" Column="33" />
+      <File FileName="Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="Models/CV.cs" Line="3" Column="33" />
+      <File FileName="Models/DarbaPieredze.cs" Line="3" Column="33" />
+      <File FileName="Models/Izglitiba.cs" Line="3" Column="33" />
+      <File FileName="Models/Pamatdati.cs" Line="3" Column="33" />
+      <File FileName="Models/Prasmes.cs" Line="3" Column="33" />
+      <File FileName="DataDB/CVDbContext.cs" Line="5" Column="11" />
+      <File FileName="DataDB/FirstTabsText.cs" Line="6" Column="26" />
+      <File FileName="DataDB/ICVDbContext.cs" Line="2" Column="30" />
+      <File FileName="Services/AdreseService.cs" Line="3" Column="30" />
+      <File FileName="Services/CVDataService.cs" Line="1" Column="30" />
+      <File FileName="Services/DarbaPieredzeService.cs" Line="3" Column="30" />
+      <File FileName="Services/IAdreseService.cs" Line="4" Column="1" />
+      <File FileName="Services/ICVDataService.cs" Line="3" Column="35" />
+      <File FileName="Services/IDarbaPieredzeService.cs" Line="4" Column="35" />
+      <File FileName="Services/IIzglitibaService.cs" Line="4" Column="35" />
+      <File FileName="Services/IPamatdatiService.cs" Line="4" Column="35" />
+      <File FileName="Services/IPrasmesService.cs" Line="4" Column="35" />
+      <File FileName="Services/IzglitibaService.cs" Line="2" Column="30" />
+      <File FileName="Services/PamatdatiService.cs" Line="3" Column="30" />
+      <File FileName="Services/PrasmesService.cs" Line="2" Column="30" />
+      <File FileName="Migrations/CVDbContextModelSnapshot.cs" Line="6" Column="30" />
+      <File FileName="Migrations/20230919192219_InitialMigration.Designer.cs" Line="7" Column="29" />
+      <File FileName="../LatvijasPastsCVTests/UnitTest1.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LatvijasPastsCV" expanded="True">
+            <Node name="LatvijasPastsCV" expanded="True" />
+            <Node name="LatvijasPastsCVTests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="LatvijasPastsCV" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

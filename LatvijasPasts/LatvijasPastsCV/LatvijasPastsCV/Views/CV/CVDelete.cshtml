@@ -1,0 +1,9 @@
+﻿@model LatvijasPastsCV.Models.CV
+
+<h2>Dzēst CV</h2>
+<p>Vai tiešām vēlaties dzēst šo CV?</p>
+<form asp-action="Delete" method="post">
+    <input type="hidden" name="id" value="@Model.ID" />
+    <input type="submit" value="Jā, dzēst" class="btn btn-danger" />
+    <a href="@Url.Action("CVSaraksts", "CV")" class="btn btn-primary">Atcelt</a>
+</form>

@@ -1,0 +1,84 @@
+﻿<Properties StartupConfiguration="{044B767F-52D6-43FB-8751-F204480F13BB}|https">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LatvijasPastsCV/Models/DarbaPieredze.cs">
+    <Files>
+      <File FileName="LatvijasPastsCV/Views/Shared/_Layout.cshtml" />
+      <File FileName="LatvijasPastsCVTesti/ServicesTests/DarbaPieredzeServiceTets.cs" Line="6" Column="1" />
+      <File FileName="LatvijasPastsCV/Services/DarbaPieredzeService.cs" />
+      <File FileName="LatvijasPastsCVTesti/ServicesTests/CVDataServiceTest.cs" />
+      <File FileName="LatvijasPastsCV/Controllers/AdresesController.cs" Line="1" Column="1" />
+      <File FileName="LatvijasPastsCV/Services/AdreseService.cs" />
+      <File FileName="LatvijasPastsCV/DataDB/CVDbContext.cs" Line="22" Column="1" />
+      <File FileName="LatvijasPastsCV/DataDB/FirstTabsText.cs" />
+      <File FileName="LatvijasPastsCV/Migrations/20230919192219_InitialMigration.cs" Line="1" Column="1" />
+      <File FileName="LatvijasPastsCV/Migrations/CVDbContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="LatvijasPastsCV/Models/Adrese.cs" />
+      <File FileName="LatvijasPastsCV/Program.cs" Line="23" Column="27" />
+      <File FileName="LatvijasPastsCVTesti/ControllersTests/CVControllerTest.cs" />
+      <File FileName="LatvijasPastsCVTesti/ControllersTests/AdresesControllerTest.cs" />
+      <File FileName="LatvijasPastsCV/Controllers/CVController.cs" Line="68" Column="10" />
+      <File FileName="LatvijasPastsCVTesti/ControllersTests/DarbaPieredzeControllerTest.cs" />
+      <File FileName="LatvijasPastsCVTesti/ControllersTests/HomeControllerTest.cs" />
+      <File FileName="LatvijasPastsCVTesti/ControllersTests/IzglitibaControllerTests.cs" />
+      <File FileName="LatvijasPastsCVTesti/ControllersTests/PamatdatiControllerTest.cs" />
+      <File FileName="LatvijasPastsCVTesti/ControllersTests/PrasmesControllerTest.cs" />
+      <File FileName="LatvijasPastsCVTesti/ServicesTests/AdreseServiceTest.cs" Line="6" Column="1" />
+      <File FileName="LatvijasPastsCV/DataDB/ICVDbContext.cs" Line="16" Column="1" />
+      <File FileName="LatvijasPastsCV/Services/CVDataService.cs" />
+      <File FileName="LatvijasPastsCV/Services/IAdreseService.cs" />
+      <File FileName="LatvijasPastsCV/Models/CV.cs" />
+      <File FileName="LatvijasPastsCV/Models/DarbaPieredze.cs" Line="1" Column="1" />
+      <File FileName="LatvijasPastsCV/Models/ErrorViewModel.cs" />
+      <File FileName="LatvijasPastsCV/Models/Izglitiba.cs" />
+      <File FileName="LatvijasPastsCV/Models/Pamatdati.cs" />
+      <File FileName="LatvijasPastsCV/Models/Prasmes.cs" />
+      <File FileName="LatvijasPastsCV/Controllers/HomeController.cs" />
+      <File FileName="LatvijasPastsCV/Controllers/IzglitibaController.cs" />
+      <File FileName="LatvijasPastsCV/Controllers/PamatdatiController.cs" />
+      <File FileName="LatvijasPastsCV/Services/PamatdatiService.cs" Line="24" Column="48" />
+      <File FileName="LatvijasPastsCV/Services/IPamatdatiService.cs" Line="15" Column="1" />
+      <File FileName="LatvijasPastsCV/Services/ICVDataService.cs" />
+      <File FileName="LatvijasPastsCV/Services/IDarbaPieredzeService.cs" Line="15" Column="1" />
+      <File FileName="LatvijasPastsCVTesti/ServicesTests/IlizglitibaServiceTest.cs" Line="19" Column="44" />
+      <File FileName="LatvijasPastsCV/Services/IIzglitibaService.cs" Line="15" Column="1" />
+      <File FileName="LatvijasPastsCV/Services/IzglitibaService.cs" Line="25" Column="10" />
+      <File FileName="LatvijasPastsCVTesti/ServicesTests/PamatdatiServiceTest.cs" Line="90" Column="2" />
+      <File FileName="LatvijasPastsCVTesti/ServicesTests/PrasmesServiceTest.cs" Line="31" Column="10" />
+      <File FileName="LatvijasPastsCV/Services/PrasmesService.cs" Line="11" Column="27" />
+      <File FileName="LatvijasPastsCV/Services/IPrasmesService.cs" Line="19" Column="1" />
+      <File FileName="LatvijasPastsCV/Controllers/DarbaPieredzeController.cs" Line="1" Column="1" />
+      <File FileName="LatvijasPastsCV/appsettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LatvijasPastsCV" expanded="True">
+            <Node name="LatvijasPastsCV" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="DataDB" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="DarbaPieredze.cs" selected="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="LatvijasPastsCVTesti" expanded="True">
+              <Node name="ServicesTests" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="LatvijasPastsCV" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.LatvijasPastsCV PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
