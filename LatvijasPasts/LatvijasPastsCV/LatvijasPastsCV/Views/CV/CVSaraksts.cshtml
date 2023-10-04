@@ -1,0 +1,36 @@
+﻿@model List<LatvijasPastsCV.Models.CV>
+
+    <h1>CV Saraksts</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Vards</th>
+                <th>Uzvards</th>
+                <th>Talrunis</th>
+                <th>E-pasts</th>
+                <th>Darbibas</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cv in Model)
+            {
+            <tr>
+                <td>@cv.ID</td>
+                <td>@(cv.Pamatdati?.Vards ?? "Nav pieejams")</td>
+                <td>@(cv.Pamatdati?.Uzvards ?? "Nav pieejams")</td>
+                <td>@(cv.Pamatdati?.Talrunis ?? "Nav pieejams")</td>
+                <td>@(cv.Pamatdati?.EPasts ?? "Nav pieejams")</td>
+                <td>
+
+                <td>
+                    <a href="@Url.Action("CVEdit", "CV", new { id = cv.ID })" class="btn btn-primary">Rediģēt</a>
+                    <a href="@Url.Action("CVDetails", "CV", new { id = cv.ID })" class="btn btn-info">Apskatīt</a>
+                    <a href="@Url.Action("CVDelete", "CV", new { id = cv.ID })" class="btn btn-danger">Dzēst</a>
+
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>

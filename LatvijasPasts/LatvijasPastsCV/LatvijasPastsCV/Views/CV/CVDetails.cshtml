@@ -1,0 +1,64 @@
+﻿@model LatvijasPastsCV.Models.CV
+
+<h2>CV Detaļas</h2>
+
+<!-- Pamatdati section -->
+<h3>Pamatdati</h3>
+<p>Vārds: @Model.Pamatdati.Vards</p>
+<p>Uzvārds: @Model.Pamatdati.Uzvards</p>
+<p>Tālrunis: @Model.Pamatdati.Talrunis</p>
+<p>E-pasts: @Model.Pamatdati.EPasts</p>
+
+<!-- Izglītība section -->
+<h3>Izglītība</h3>
+@foreach (var izglitiba in Model.Izglitiba)
+{
+    <p>Izglītības iestāde: @izglitiba.Iestade</p>
+    <p>Fakultāte: @izglitiba.Fakultate</p>
+    <p>Izglītības līmenis: @izglitiba.IzglitibasLimenis</p>
+    <p>Statuss: @izglitiba.Statuss</p>
+    <p>Mācību laiks: @izglitiba.MacibasLaiks.ToShortDateString()</p>
+    <hr />
+}
+
+<!-- Darba pieredze section -->
+<h3>Darba pieredze</h3>
+@foreach (var pieredze in Model.DarbaPieredzes)
+{
+    <p>Darba vieta: @pieredze.Vieta</p>
+    <p>Uzņēmuma nosaukums: @pieredze.Nosaukums</p>
+    <p>Ienemamais amats: @pieredze.Amats</p>
+    <p>Slodzes apmērs: @pieredze.SlodzesApmers</p>
+    <p>Darba stāžs: @pieredze.Stazs.ToShortDateString()</p>
+    <hr />
+}
+
+<!-- Prasmes section -->
+<h3>Pielietotās prasmes vai sasniegumi</h3>
+@foreach (var prasme in Model.Prasmes)
+{
+    <p>Apraksts: @prasme.Apraksts</p>
+    <hr />
+}
+
+<!-- Adrese section -->
+<h3>Adrese</h3>
+@if (Model.Adrese != null)
+{
+    <p>Valsts: @Model.Adrese.Valsts</p>
+    <p>Indekss: @Model.Adrese.Indekss</p>
+    <p>Pilsēta: @Model.Adrese.Pilseta</p>
+    <p>Iela: @Model.Adrese.Iela</p>
+}
+else
+{
+    <p>Adrese nav pieejama</p>
+}
+
+<button onclick="printCV()" class="btn btn-secondary">Izdrukāt CV</button>
+
+<a href="@Url.Action("CVSaraksts", "CV")" class="btn btn-primary">Atpakaļ uz sarakstu</a>
+
+<script>function printCV() {
+        window.print();
+    }</script>

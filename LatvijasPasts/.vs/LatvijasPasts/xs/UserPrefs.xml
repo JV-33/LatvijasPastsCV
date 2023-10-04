@@ -1,0 +1,56 @@
+﻿<Properties StartupConfiguration="{5D46C763-2401-4C92-945A-674A639D4C7E}|https">
+  <MonoDevelop.Ide.ItemProperties.CV PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CV/Migrations/CVContextModelSnapshot.cs">
+    <Files>
+      <File FileName="CV/Adrese.cs" Line="12" Column="2" />
+      <File FileName="CV/appsettings.json" Line="9" Column="31" />
+      <File FileName="CV/CVController.cs" Line="5" Column="33" />
+      <File FileName="CV/CVService.cs" Line="22" Column="36" />
+      <File FileName="CV/DarbaPieredze.cs" Line="7" Column="14" />
+      <File FileName="CV/DatabaseConnectionContext.cs" Line="6" Column="46" />
+      <File FileName="CV/ICVService.cs" Line="19" Column="1" />
+      <File FileName="CV/Izglitiba.cs" Line="14" Column="2" />
+      <File FileName="CV/Pamatdati.cs" Line="1" Column="1" />
+      <File FileName="CV/Prasmes.cs" Line="9" Column="2" />
+      <File FileName="CV/Program.cs" Line="33" Column="1" />
+      <File FileName="CV/Views/Shared/_Layout.cshtml" />
+      <File FileName="CV/Views/CV/Index.cshtml" Line="11" Column="30" />
+      <File FileName="CV/Views/CV/Create.cshtml" Line="92" Column="1" />
+      <File FileName="CV/Views/CV/Details.cshtml" Line="15" Column="13" />
+      <File FileName="CV/Views/CV/Edit.cshtml" Line="25" Column="1" />
+      <File FileName="CV/Views/_ViewImports.cshtml" />
+      <File FileName="CV/Views/Shared/Error.cshtml" />
+      <File FileName="CV/ErrorViewModel.cs" Line="12" Column="1" />
+      <File FileName="CV/Views/_ViewStart.cshtml" />
+      <File FileName="CV/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="CV/Views/Shared/_Layout.cshtml.css" />
+      <File FileName="CV/Views/Home/Privacy.cshtml" />
+      <File FileName="CV/Views/Home/Index.cshtml" />
+      <File FileName="CV/Models/ErrorViewModel.cs" Line="10" Column="1" />
+      <File FileName="CV/st=localhost" />
+      <File FileName="CV/Controllers/HomeController.cs" Line="14" Column="6" />
+      <File FileName="CV/Migrations/20230907132510_InitialCreate.cs" Line="74" Column="81" />
+      <File FileName="CV/Migrations/CVContextModelSnapshot.cs" Line="50" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LatvijasPasts" expanded="True">
+            <Node name="CV" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True">
+                <Node name="CVContextModelSnapshot.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
