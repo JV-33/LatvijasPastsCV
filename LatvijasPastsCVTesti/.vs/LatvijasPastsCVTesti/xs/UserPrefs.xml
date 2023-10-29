@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{A8B58A8F-D1BE-4503-AAE6-8A5488CAAC0B}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ControllersTests/AdresesControllerTest.cs">
+    <Files>
+      <File FileName="ControllersTests/AdresesControllerTest.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LatvijasPastsCVTesti" expanded="True">
+            <Node name="LatvijasPastsCVTesti" expanded="True">
+              <Node name="ControllersTests" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.LatvijasPastsCVTesti PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
